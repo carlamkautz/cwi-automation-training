@@ -12,4 +12,16 @@ public class TreinamentoElementMap extends BasePage {
 	@FindBy(css = ".button-search")
 	protected WebElement botaoPesquisar;
 	
+	@FindBy(xpath = "//*[@id='center_column']/ul/li[1]/div/div[2]/div[2]/a[1]/span")
+	protected WebElement botaoAdd;	
+	
+	@FindBy(xpath = "//*[@id='best-sellers_block_right']/div/ul/li[1]/a/img")
+	protected WebElement vestido;	
+	
+	@FindBy(xpath = "//*[@id='center_column']/ul/li[1]/div/div[2]/span/span")
+	protected WebElement caixaProduto;
+	
+	@FindBy(xpath = "//*[@id='layer_cart']/div[1]/div[1]/h2")
+	protected WebElement texto;
+		
 }
